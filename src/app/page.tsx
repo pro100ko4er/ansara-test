@@ -270,8 +270,8 @@ export default function Home() {
             </div>
          
         <Carousel 
-        ssr
         responsive={responsive} 
+        containerClass="w-full"
         className="max-w-full min-h-[500px]" 
         showDots={false}
         renderArrowsWhenDisabled

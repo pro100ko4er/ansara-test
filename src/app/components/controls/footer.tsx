@@ -15,7 +15,7 @@ export default function Footer(props: FooterProps) {
     const {data, className, ...other} = props
 
     return (
-        <div className={`flex items-center justify-between ${className}`} {...other}>
+        <div className={`flex items-center justify-between bg-[#FFFFFF] ${className}`} {...other}>
             {data.map((item, index) => {
                 return (
                     <div key={index} className="footer-item flex flex-col items-center justify-center">
